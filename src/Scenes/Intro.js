@@ -17,7 +17,7 @@ class Intro extends Phaser.Scene {
     create() {
         this.back = this.add.sprite(0, 0, "bg").setOrigin(0, 0).setScale(0.8); // setOrigin(0, 0) sets the origin to the top left corner of the image
         this.back.z = -1; // set the z index of the background sprite to 0
-        this.player = this.add.sprite(400, 450, "fire").setOrigin(0.5, 0.5).setScale(1); // setOrigin(0.5, 0.5) sets the origin to the center of the image
+        this.player = this.add.sprite(400, 475, "fire").setOrigin(0.5, 0.5).setScale(1); // setOrigin(0.5, 0.5) sets the origin to the center of the image
 
         let TitleText = this.add.text(400, 200, "MAPPING MESS", {
             fontFamily: "Arial",
